@@ -1,0 +1,12 @@
+{
+	"RepetitionTime": 0.0096,
+	"Manufacturer": "Philips",
+	"ManufacturerModelName": "Intera",
+	"MagneticFieldStrength": 3.00,
+	"ReceiveCoilName": "SENSE 8-channel head coil",
+	"ScanningSequence": "T1 turbo field echo",
+	"MRAcquisitionType": "3D",
+	"EchoTime": 0.0046,
+	"FlipAngle": 8.0
+}
+
