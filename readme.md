@@ -1,5 +1,5 @@
-# A Jupyter template for using FSL
-I believe this will be helpful if you are trying to use jupyter lab for you neuroimaging study for the first time.
+# Use FSL in jupyter 
+I believe this will be helpful if you are trying to use jupyter lab for you neuroimaging study for the first time, espcially when you are using FSL.
 
 # Structure of the Repo
 ```
