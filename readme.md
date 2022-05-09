@@ -1,4 +1,4 @@
-# A Jupyter template for mri and behaviour data analysis
+# A Jupyter template for using FSL
 I believe this will be helpful if you are trying to use jupyter lab for you neuroimaging study for the first time.
 
 # Usage
