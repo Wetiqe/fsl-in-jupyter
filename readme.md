@@ -2,7 +2,7 @@
 I believe this will be helpful if you are trying to use jupyter lab for you neuroimaging study for the first time.
 
 # Structure of the Repo
-
+```
 fsl-in-jupyter/
 ├── analysis_behaviour_data
 │   ├── data_analysis.ipynb
@@ -54,6 +54,7 @@ fsl-in-jupyter/
 │   └── stat.py
 ├── readme.md
 └── requirements.txt
+```
 
 # Usage
 ## Preparation notebook
