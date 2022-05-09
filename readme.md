@@ -1,6 +1,60 @@
 # A Jupyter template for using FSL
 I believe this will be helpful if you are trying to use jupyter lab for you neuroimaging study for the first time.
 
+# Structure of the Repo
+
+fsl-in-jupyter/
+├── analysis_behaviour_data
+│   ├── data_analysis.ipynb
+│   ├── data_cleaning.ipynb
+│   └── plot.ipynb
+├── analysis_mri
+│   ├── ica_fslnets.ipynb
+│   ├── rs.ipynb
+│   ├── TBSS
+│   │   ├── param.json
+│   │   └── tbss.ipynb
+│   ├── tbss.ipynb
+│   └── vbm.ipynb
+├── database
+│   ├── example_bids_data
+│   │   ├── participants.tsv
+│   │   ├── sub-101
+│   │   │   └── ses-1
+│   │   │       └── anat
+│   │   │           └── sub-101_ses-1_T1w.nii.gz
+│   │   ├── sub-102
+│   │   │   └── ses-1
+│   │   │       └── anat
+│   │   │           └── sub-102_ses-1_T1w.nii.gz
+│   │   ├── sub-201
+│   │   │   └── ses-1
+│   │   │       └── anat
+│   │   │           └── sub-201_ses-1_T1w.nii.gz
+│   │   ├── sub-202
+│   │   │   └── ses-1
+│   │   │       └── anat
+│   │   │           └── sub-202_ses-1_T1w.nii.gz
+│   │   └── T1w.json
+│   └── test.db
+├── fsl_in_jupyter.ipynb
+├── neuroimging_in_jupyter.ipynb
+├── preparation.ipynb
+├── pysetup
+│   ├── general.py
+│   ├── __init__.py
+│   ├── plot.py
+│   ├── __pycache__
+│   │   ├── general.cpython-38.pyc
+│   │   ├── __init__.cpython-38.pyc
+│   │   ├── plot.cpython-38.pyc
+│   │   ├── r.cpython-38.pyc
+│   │   └── stat.cpython-38.pyc
+│   ├── r.py
+│   └── stat.py
+├── readme.md
+└── requirements.txt
+
 # Usage
 ## Preparation notebook
 This notebook contains the instructions on how to create virtual enviroment for your project and then how to install local pakage pysetup.    
@@ -13,6 +67,8 @@ This notebook explains how to run neuroimaging analysis in jupyter notebook usin
 
 The contents includes the benefits of doing this, how to run fsl command in jupyter notebook and 
 how to interact with python syntax.
+## Neuroimaging in Jupyter
+This notebook contains some handy code when doing neuroimaging analysis such as using different kernels in one notebook, altlas query combined with Pandas etc.
 
 
 ## database folder
